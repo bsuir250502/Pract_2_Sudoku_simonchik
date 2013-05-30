@@ -116,7 +116,7 @@ int SolveSudoku(int i, int j)
     int correct = 1;
     int current_value = 1;
     while (1) {
-        if (j > 8) {
+        if (j == SIZE) {
             i++;
             j = 0;
         }
